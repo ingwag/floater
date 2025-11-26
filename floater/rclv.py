@@ -4,7 +4,7 @@ import numpy as np
 import xarray as xr
 from skimage.measure import find_contours, points_in_poly, grid_points_in_poly
 from skimage.feature import peak_local_max
-from skimage.morphology import convex_hull_image, watershed
+#from skimage.morphology import convex_hull_image, watershed
 from scipy.spatial import qhull
 from time import time
 
